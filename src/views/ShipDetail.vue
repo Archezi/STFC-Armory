@@ -1,54 +1,55 @@
 <template>
   <div class="ship-detail">
     <v-container>
-      <v-col sm="4">
-        <v-sheet color="transparent">
-          <v-card
-            v-for="cost in costs"
-            :key="cost.class"
-            color="transparent "
-            flat
-            height="20"
-            class="d-flex align-center pa-0 ma-0"
-          >
-            <v-card color="transparent" flat class="d-flex align-center"
-              ><v-avatar tile size="16">
-                <v-img
-                  :src="require(`@/assets/resources/${cost.resourceIcon}.png`)"
-                ></v-img> </v-avatar
-            ></v-card>
-            <v-card color="transparent" flat class="d-flex align-center"
-              ><span
-                ><v-rating
-                  v-model="cost.grade.starsNumber"
-                  :length="1"
-                  :color="cost.grade.color"
-                  class="d-flex align-center mr-2"
-                  large
-                  size="16"
-                ></v-rating
-              ></span>
-              <span>{{ cost.grade.number }}</span>
-              <span class="text--lighten-5" :class="cost.grade.rarity">{{
-                cost.name
-              }}</span>
-            </v-card>
-            <v-card
-              color="transparent"
-              flat
-              class="d-flex align-center ml-auto"
-            >
-              <span :class="cost.grade.rarity">{{ cost.amount }}</span>
-            </v-card>
-          </v-card>
-        </v-sheet>
-      </v-col>
+      <ship-main-info></ship-main-info>
+      <v-row>
+        <v-col sm="12">
+          <v-tabs background-color="primary" class="pa-0" optional>
+            <v-tab class="white--text" href="#ability">Ability</v-tab>
+            <v-tab-item class="" value="ability">
+              <ship-ability></ship-ability>
+            </v-tab-item>
+            <v-tab class="white--text" href="#two">Item Two</v-tab>
+            <v-tab-item dark class="tb-bg" value="two">
+              <ship-ability></ship-ability>
+            </v-tab-item>
+            <v-tab class="white--text" href="#three">Item Three</v-tab>
+            <v-tab-item dark class="mt-5 mb-5 tb-bg" value="three">
+              <ship-requirements></ship-requirements>
+            </v-tab-item>
+          </v-tabs>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col sm="12">
+          <ship-build-cost></ship-build-cost>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12">
+          <ship-component-cost></ship-component-cost>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 <script>
+import ShipMainInfo from "../components/shipDetail/ShipdMainInfo.vue";
+import ShipAbility from "../components/shipDetail/ShipAbility.vue";
+import ShipRequirements from "../components/shipDetail/ShipRequirements.vue";
+import ShipBuildCost from "../components/shipDetail/ShipBuildCost.vue";
+import ShipComponentCost from "../components/shipDetail/ShipComponentCost.vue";
+
 export default {
+  components: {
+    ShipMainInfo,
+    ShipAbility,
+    ShipRequirements,
+    ShipBuildCost,
+    ShipComponentCost,
+  },
   data: () => ({
+    showTab: false,
     costs: [
       {
         name: "tritanium",
@@ -100,6 +101,9 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+.v-card {
+  background: transparent;
+}
 .rare {
   button svg {
     fill: #104eaa;
@@ -129,5 +133,17 @@ export default {
   width: 20px;
   margin: 0;
   padding: 0;
+}
+.tb-bg {
+  background: transparent !important;
+}
+// ======================================
+// ship info
+v-tab-item {
+  background-color: transparent;
+}
+.ship__info {
+  max-height: 30rem;
+  min-height: 20rem;
 }
 </style>
