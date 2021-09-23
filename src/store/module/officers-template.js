@@ -26,7 +26,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Vigilant",
-      abilityIcon: "OfficerAbility_ico_ability_vigilant.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Origins Saru increases the Defense of all the Officers on the ship by 10.",
       abilitySynergyBonus: [
@@ -46,7 +46,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Prey Instinct",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_prey_instinct.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_15.png",
       abilityDescription:
         "Origins Saru increases the Hull Health of the ship by 5%.",
       abilityRankBonus: [
@@ -140,7 +140,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Big Shot",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_big_shot.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Cadet Sulu increases the damage of the first shots of the ship by 5% for the first round.",
       abilitySynergyBonus: [
@@ -160,7 +160,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Fighting Spirit",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_fighting_spirit.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Cadet Sulu increases the Attack of all the Officers on the ship by 5%.",
       abilityRankBonus: [
@@ -254,7 +254,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Motivational",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_motivational.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Cadet Kirk increases the Attack, Defense and Health of all Officers on the Bridge by 8%.",
       abilitySynergyBonus: [
@@ -274,7 +274,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Tactician",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_tactician.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Origins Saru increases the Hull Health of the ship by 5%.",
       abilityRankBonus: [
@@ -368,7 +368,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Doctor",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_doctor.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_47.png",
       abilityDescription:
         "Cadet McCoy increases the Health of all Officers on the ship by 10%.",
       abilitySynergyBonus: [
@@ -388,7 +388,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Psychologist",
-      abilityIcon: "OfficerAbility_ico_ability_type_small_psychologist.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_2.png",
       abilityDescription:
         "During combat, Cadet McCoy increases the effectiveness of the Captain Maneuver by 4%.",
       abilityRankBonus: [
@@ -482,7 +482,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Sturdy Ship",
-      abilityIcon: "OfficerAbility_ico_ability_SturdyShip.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_15.png",
       abilityDescription: "Cadet Scotty increases the Ship Hull Health by 10%.",
       abilitySynergyBonus: [
         {
@@ -501,7 +501,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Warp Theory",
-      abilityIcon: "OfficerAbility_ico_ability_WarpTheory.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_9.png",
       abilityDescription:
         "Origins Saru increases the Hull Health of the ship by 5%.",
       abilityRankBonus: [
@@ -595,7 +595,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Scan the enemy",
-      abilityIcon: "OfficerAbility_ico_ability_type_Scan_the_enemy.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_12.png",
       abilityDescription:
         "Cadet Uhura decreases the Weapon Damage of the opponent's ship by 10%.",
       abilitySynergyBonus: [
@@ -615,7 +615,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Negotiations",
-      abilityIcon: "OfficerAbility_ico_ability_type_Negotiations.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_16.png",
       abilityDescription:
         "Cadet Uhura increases the Shield Health of the ship by 5%",
       abilityRankBonus: [
@@ -709,7 +709,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Dilithium Miner",
-      abilityIcon: "OfficerAbility_ico_ability_type_Dilithium_Miner.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_5.png",
       abilityDescription:
         "Domitia increases the Mining Rate of the ship by 40% when mining Dilithium.",
       abilitySynergyBonus: [
@@ -729,7 +729,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Hurry Home",
-      abilityIcon: "OfficerAbility_ico_ability_type_Hurry_Home.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_9.png",
       abilityDescription:
         "As long as the Cargo of the ship is full, Domitia increases its Warp speed by 25%.",
       abilityRankBonus: [
@@ -823,7 +823,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Parsteel Hunter",
-      abilityIcon: "OfficerAbility_ico_ability_type_Parsteel_Hunter.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_4.png",
       abilityDescription:
         "Gaila increases the Parsteel rewards for defeating a Hostile by 25%.",
       abilitySynergyBonus: [
@@ -843,7 +843,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Critical Avoidance",
-      abilityIcon: "OfficerAbility_ico_ability_type_Critical_Avoidance.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_19.png",
       abilityDescription:
         "If the opponent is a Hostile, Gaila decreases the damage from its Critical Hits by 10%.",
       abilityRankBonus: [
@@ -937,7 +937,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Galaxy Traveler",
-      abilityIcon: "OfficerAbility_ico_ability_type_Galaxy_Traveler.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_9.png",
       abilityDescription: "Hadley increases the Warp Speed of the ship by 15%.",
       abilitySynergyBonus: [
         {
@@ -956,7 +956,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Survey Trainer",
-      abilityIcon: "OfficerAbility_ico_ability_type_Survey_Trainer.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_70.png",
       abilityDescription:
         "Hadley increases Ship Experience gained on Survey ships by 20%.",
       abilityRankBonus: [
@@ -1050,7 +1050,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Parsteel Miner",
-      abilityIcon: "OfficerAbility_ico_ability_type_Parsteel_Miner.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_5.png",
       abilityDescription:
         "Helvia increases the Mining Rate of the ship by 40% when mining Parsteel.",
       abilitySynergyBonus: [
@@ -1070,7 +1070,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Gold Rush",
-      abilityIcon: "OfficerAbility_ico_ability_type_Gold_Rush.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_9.png",
       abilityDescription:
         "As long as the Cargo of the ship is empty, Helvia increases its Warp speed by 25%.",
       abilityRankBonus: [
@@ -1164,7 +1164,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Knowledgeable",
-      abilityIcon: "OfficerAbility_ico_ability_type_Knowledgeable.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Instructor Spock increases the Weapon Damage of the ship by 5%.",
       abilitySynergyBonus: [
@@ -1184,7 +1184,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Kobayashi Maru",
-      abilityIcon: "OfficerAbility_ico_ability_type_Kobayashi_Maru.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_19.png",
       abilityDescription:
         " Instructor Spock increases the Shield Deflection, Armor and Dodge of the ship by 5%.",
       abilityRankBonus: [
@@ -1282,7 +1282,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Break Through",
-      abilityIcon: "OfficerAbility_ico_ability_type_Break_Through.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_20.png",
       abilityDescription:
         " When defending the Station, M'Benga increases the Armor Piercing, Shield Piercing and Accuracy of the ship by 10%.",
       abilitySynergyBonus: [
@@ -1302,7 +1302,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Slip Through",
-      abilityIcon: "OfficerAbility_ico_ability_type_Slip_Through.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_19.png",
       abilityDescription:
         "When defending the station, M'Benga increases Dodge, Armor and Shield Deflection by 10%.",
       abilityRankBonus: [
@@ -1396,7 +1396,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Tritanium Miner",
-      abilityIcon: "OfficerAbility_ico_ability_type_Tritanium_Miner.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_5.png",
       abilityDescription:
         "K'Bisch increases the Mining Rate of the ship by 40% when mining Tritanium.",
       abilitySynergyBonus: [
@@ -1416,7 +1416,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Defensive Mining",
-      abilityIcon: "OfficerAbility_ico_ability_type_Defensive Mining.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_19.png",
       abilityDescription:
         "As long as the ship is mining, K'Bisch reduces the damage dealt by attacking opponents by 10%",
       abilityRankBonus: [
@@ -1510,7 +1510,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Battleship Specialist",
-      abilityIcon: "OfficerAbility_ico_ability_type_Battleship_Specialist.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_72.png",
       abilityDescription:
         "When inside a Battleship, Komal increases Weapon Damage against players by 20%.",
       abilitySynergyBonus: [
@@ -1530,7 +1530,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Resist Kinetic",
-      abilityIcon: "OfficerAbility_ico_ability_type_Resist_Kinetic.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_18.png",
       abilityDescription:
         " If the opponent is a player, Komal decreases the damage made by its Kinetic Weapons by 5%.",
       abilityRankBonus: [
@@ -1624,7 +1624,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Defending Power",
-      abilityIcon: "OfficerAbility_ico_ability_type_Defending_Power.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "When the ship is attacked by a player, Darwin increases the Weapon Damage by 10%.",
       abilitySynergyBonus: [
@@ -1644,7 +1644,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Interceptor Trainer",
-      abilityIcon: "OfficerAbility_ico_ability_type_Interceptor_Trainer.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_71.png",
       abilityDescription:
         "Darwin increases the Ship Experience gained on Interceptors by 20%.",
       abilityRankBonus: [
@@ -1739,7 +1739,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Hypospray",
-      abilityIcon: "OfficerAbility_ico_ability_type_Hypospray.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_47.png",
       abilityDescription:
         "Next Gen Crusher increases the Health of all Officers on the ship by 10%.",
       abilitySynergyBonus: [
@@ -1759,7 +1759,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "The Dancing Doctor",
-      abilityIcon: "OfficerAbility_ico_ability_type_The_Dancing_Doctor.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_2.png",
       abilityDescription:
         "During combat, Next Gen Crusher increases the effectiveness of the Captain Maneuver by 4%",
       abilityRankBonus: [
@@ -1854,7 +1854,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "The Measure of a Man",
-      abilityIcon: "OfficerAbility_ico_ability_The_Measure_of_a_Man.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Next Gen Data increases the Attack, Defense and Health of all Officers on the Bridge by 8%",
       abilitySynergyBonus: [
@@ -1874,7 +1874,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Power Play",
-      abilityIcon: "OfficerAbility_ico_ability_type_Power_Play.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Next Gen Data increases the Weapon damage of the ship by 5%.",
       abilityRankBonus: [
@@ -1969,7 +1969,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Timeless",
-      abilityIcon: "OfficerAbility_ico_ability_type_Timeless.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_12.png",
       abilityDescription:
         "Next Gen La Forge decreases the Weapon Damage of the opponent's ship by 10%.",
       abilitySynergyBonus: [
@@ -1989,7 +1989,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Rerouting Power",
-      abilityIcon: "OfficerAbility_ico_ability_type_Rerouting_Power.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_16.png",
       abilityDescription:
         "Next Gen La Forge increases the Shield Health of the ship by 5%.",
       abilityRankBonus: [
@@ -2084,7 +2084,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "The Riker Maneuver",
-      abilityIcon: "OfficerAbility_ico_ability_type_The_Riker_ Maneuver.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Next Gen Riker increases the damage of the first shots of the ship by 5% for the first round.",
       abilitySynergyBonus: [
@@ -2104,7 +2104,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "The Riker Lean",
-      abilityIcon: "OfficerAbility_ico_ability_type_The_Riker_Lean.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Next Gen Riker increases the Attack of all the Officers on the ship by 5%.",
       abilityRankBonus: [
@@ -2199,7 +2199,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Face of the Enemy",
-      abilityIcon: "OfficerAbility_ico_ability_type_Face_of_the_Enemy.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "Next Gen Troi increases the Weapon Damage of the ship by 5%.",
       abilitySynergyBonus: [
@@ -2219,7 +2219,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Empathic",
-      abilityIcon: "OfficerAbility_ico_ability_type_Empathic.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_19.png",
       abilityDescription:
         "Next Gen Troi increases the Shield Deflection, Armor and Dodge of the ship by 5%.",
       abilityRankBonus: [
@@ -2315,7 +2315,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Biologist",
-      abilityIcon: "OfficerAbility_ico_ability_type_Biologist.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_7.png",
       abilityDescription:
         "Origins Stamets increases the Health of all the Officers on the ship by 10.",
       abilitySynergyBonus: [
@@ -2335,7 +2335,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "No Time To Waste",
-      abilityIcon: "OfficerAbility_ico_ability_type_No_Time_To_Waste.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_9.png",
       abilityDescription:
         "Origins Stamets increases the Warp Speed of the ship by 30%.",
       abilityRankBonus: [
@@ -2429,7 +2429,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Explorer Specialist",
-      abilityIcon: "OfficerAbility_ico_ability_type_Explorer_Specialist.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_73.png",
       abilityDescription:
         "When inside an Explorer, Rukor increases the Weapon Damage against players by 20%.",
       abilitySynergyBonus: [
@@ -2449,7 +2449,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Energy Boost",
-      abilityIcon: "OfficerAbility_ico_ability_type_Energy_Boost.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_29.png",
       abilityDescription:
         "If the opponent is a player, Rukor increases the damage made by the Energy Weapons of the ship by 5%.",
       abilityRankBonus: [
@@ -2543,7 +2543,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Always on Guard",
-      abilityIcon: "OfficerAbility_ico_ability_type_Always on Guard.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_132.png",
       abilityDescription:
         "If the opponent is an Eclipse hostile (including Armada Targets), Sesha has a 20% chance to reduce the opponent's Critical Hit Chance by 15%",
       abilitySynergyBonus: [
@@ -2563,7 +2563,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Intimidation",
-      abilityIcon: "OfficerAbility_ico_ability_type_Intimidation.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_136.png",
       abilityDescription:
         "For the first three rounds of combat, when fighting Eclipse hostiles (including Armada Targets), Sesha increases the Critical Damage Bonus of the ship by 20%.",
       abilityRankBonus: [
@@ -2646,9 +2646,9 @@ officers = [
   },
   // Shev Akria *
   {
-    name: "Origins Saru",
+    name: "Shev Akria",
     grade: "Common ",
-    portrait: "origins_saru.png",
+    portrait: "shev_akria.png",
     crew: "STARFLEET ACADEMY",
     faction: "Federation",
     class: "Engineering",
@@ -2657,7 +2657,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Tritanium Hunter",
-      abilityIcon: "OfficerAbility_ico_ability_type_Tritanium_Hunter.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_4.png",
       abilityDescription:
         "Shev increases the Tritanium rewards for defeating a Hostile by 25%.",
       abilitySynergyBonus: [
@@ -2677,7 +2677,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Justice Dealer",
-      abilityIcon: "OfficerAbility_ico_ability_type_Justice_Dealer.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_29.png",
       abilityDescription:
         "If the opponent is a Hostile, Shev increases the damage of the Energy weapons of the ship by 5%.",
       abilityRankBonus: [
@@ -2771,7 +2771,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Thorough Scans",
-      abilityIcon: "OfficerAbility_ico_ability_type_Thorough_Scans.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_10.png",
       abilityDescription: "T'Laan increases the Ship Experience gained by 15%.",
       abilitySynergyBonus: [
         {
@@ -2790,7 +2790,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Objective Defense",
-      abilityIcon: "OfficerAbility_ico_ability_type_Objective_Defense.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_18.png",
       abilityDescription:
         "If the opponent is a Hostile, T'Laan decreases the Damage done by its Kinetic Weapons by 5%. Works against Hostiles of level 51 and under.",
       abilityRankBonus: [
@@ -2888,7 +2888,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Security Breach",
-      abilityIcon: "OfficerAbility_ico_ability_type_Security_Breach.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_139.png",
       abilityDescription:
         "When fighting Eclipse hostiles (including Armada Targets), for the first three rounds of combat, Tiza decreases the Shield Mitigation of the opponent by 4%",
       abilitySynergyBonus: [
@@ -2908,7 +2908,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Mirani Technology",
-      abilityIcon: "OfficerAbility_ico_ability_type_Mirani_Technology.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_137.png",
       abilityDescription:
         "When fighting Eclipse hostiles (including Armadas), Tiza has a 35% chance to increase Shield Deflection, Armor and Dodge by 100% for the whole combat.",
       abilityRankBonus: [
@@ -3002,7 +3002,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Interceptor Specialist",
-      abilityIcon: "OfficerAbility_ico_ability_type_Interceptor_Specialist.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_71.png",
       abilityDescription:
         "When inside an Interceptor, Vartoq increases the Weapon Damage against players by 20%.",
       abilitySynergyBonus: [
@@ -3022,7 +3022,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Kinetic Boost",
-      abilityIcon: "OfficerAbility_ico_ability_type_Kinetic_Boost.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_30.png",
       abilityDescription:
         "Origins Saru increases the Hull Health of the ship by 5%.",
       abilityRankBonus: [
@@ -3116,7 +3116,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Dilithium Hunter",
-      abilityIcon: "OfficerAbility_ico_ability_type_Dilithium_Hunter.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_4.png",
       abilityDescription:
         "Vel increases the Dilithium rewards for defeating a Hostile by 25%.",
       abilitySynergyBonus: [
@@ -3136,7 +3136,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Chirurgical Precision",
-      abilityIcon: "OfficerAbility_ico_ability_type_Chirurgical_Precision.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_30.png",
       abilityDescription:
         "If the opponent is a Hostile, Vel increases the damage made by the Kinetic Weapons of the ship by 5%.",
       abilityRankBonus: [
@@ -3230,7 +3230,7 @@ officers = [
     ],
     captainAbility: {
       abilityName: "Station Expert",
-      abilityIcon: "OfficerAbility_ico_ability_Station_Expert.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_15.png",
       abilityDescription:
         "When defending the Station, Zahra increases the ship's Hull Health by 10%.",
       abilitySynergyBonus: [
@@ -3250,7 +3250,7 @@ officers = [
     },
     officerAbility: {
       abilityName: "Home Engineer",
-      abilityIcon: "OfficerAbility_ico_ability_type_Home_Engineer.png",
+      abilityIcon: "OfficerAbility_ico_ability_type_38.png",
       abilityDescription:
         "When defending the Station, Zahra increases the Weapon Damage by 5%",
       abilityRankBonus: [
