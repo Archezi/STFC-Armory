@@ -1,0 +1,48 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-port {
+    @media only screen and (max-height: 41.4em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == retina-lap {
+    @media only screen and (max-width: 100em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 130em) {
+      @content;
+    }
+  }
+}
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin absCenterX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin absCenterY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

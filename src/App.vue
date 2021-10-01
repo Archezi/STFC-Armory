@@ -18,8 +18,11 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
+@import "./scss/one/variable.scss";
+@import "./scss/one/mixins.scss";
+@import "./scss/one/base.scss";
 .main-content {
-  background: #0d212d;
+  background: #161c25;
 }
 </style>

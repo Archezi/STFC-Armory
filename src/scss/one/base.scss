@@ -1,0 +1,63 @@
+html,
+* {
+  font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+  @include respond(big-desktop) {
+    font-size: 75%;
+    box-sizing: border-box;
+  }
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+body {
+  box-sizing: border-box;
+  background: #fff;
+}
+#app {
+  background-color: #161c25;
+  color: #daeaf2;
+}
+a {
+  text-decoration: none;
+  font: inherit;
+  color: $color-primary-dark;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+}
+a:hover {
+  color: $color-primary-light;
+}
+p {
+  font-family: $font-primary;
+  font-size: $text-primary;
+  color: $color-primary-dark;
+}
+.mobile_only {
+  display: none;
+  @include respond(phone) {
+    display: block;
+  }
+}
+.hide_mobile {
+  @include respond(phone) {
+    display: none;
+  }
+}

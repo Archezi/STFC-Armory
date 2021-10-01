@@ -35,6 +35,7 @@ export default {
       drawer: false,
       links: [
         { icon: "mdi-folder", text: "Home", route: "/" },
+        { icon: "mdi-folder", text: "Missions", route: "/missions" },
         { icon: "mdi-account-multiple", text: "Ships", route: "/ships" },
         { icon: "mdi-star", text: "another", route: "/details" },
       ],
