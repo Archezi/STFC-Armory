@@ -1,11 +1,12 @@
 export default [
   // Accelerated Bioforming
   {
+    id: "m-0",
     missionName: "Accelerated Bioforming",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Speedups", "Service Awards"],
-    criticalReward: "Latinum",
+    primaryReward: ["speedup", "service_award"],
+    criticalReward: "latinium",
     traits: [
       {
         traitName: "Physicist",
@@ -27,11 +28,12 @@ export default [
   },
   // Address The High Council
   {
+    id: "m-1",
     missionName: "Address The High Council",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Relentless",
@@ -53,11 +55,12 @@ export default [
   },
   // Address The High Council
   {
+    id: "m-2",
     missionName: "Address The High Council",
     rarity: "Epic",
     keyStat: "Defense",
-    primaryReward: ["Klingon Reputaion"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["klingon_reputation"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Specialist",
@@ -79,11 +82,12 @@ export default [
   },
   // Armed Escort
   {
+    id: "m-3",
     missionName: "Armed Escort",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Rare Star Charts", "Service Awards"],
-    criticalReward: ["Rare Star Charts"],
+    primaryReward: ["star_chart_rare", "service_award"],
+    criticalReward: ["star_chart_rare"],
     traits: [
       {
         traitName: "Tactical",
@@ -101,11 +105,12 @@ export default [
   },
   // Arbiter of Succession
   {
+    id: "m-4",
     missionName: "Arbiter of Succession",
     rarity: "Epic",
     keyStat: "Defense",
-    primaryReward: ["Klingon Reputation"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["klingon_reputation"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Specialist",
@@ -127,11 +132,12 @@ export default [
   },
   // Bat'leth Training
   {
+    id: "m-5",
     missionName: "Bat'leth Training",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Premium Recruit Tokens"],
-    criticalReward: ["Moreau Shards"],
+    primaryReward: ["premium_recruit_tokens"],
+    criticalReward: ["marlena_moreau"],
     traits: [
       {
         traitName: "Ruthless",
@@ -145,11 +151,13 @@ export default [
   },
   // Bloodwine Contest
   {
+    id: "m-6",
+
     missionName: "Arbiter of Succession",
     rarity: "Common",
     keyStat: "Health",
-    primaryReward: ["Klingon Reputation", "Service Awards"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["klingon_reputation", "service_award"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Warrior",
@@ -159,11 +167,13 @@ export default [
   },
   // Boarding Party
   {
+    id: "m-7",
+
     missionName: "Boarding Party",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Epic Star Charts", "Service Awards"],
-    criticalReward: ["Epic Star Charts"],
+    primaryReward: ["star_chart_epic", "service_award"],
+    criticalReward: ["star_chart_epic"],
     traits: [
       {
         traitName: "Tactical",
@@ -185,11 +195,12 @@ export default [
   },
   // Calculated Treachery
   {
+    id: "m-8",
     missionName: "Calculated Treachery",
     rarity: "Common",
     keyStat: "Attack",
-    primaryReward: ["Romulan Reputation", "Service Awards"],
-    criticalReward: ["Romulan Credits"],
+    primaryReward: ["romulan_reputation", "service_award"],
+    criticalReward: ["romulan_badge"],
     traits: [
       {
         traitName: "Calculated",
@@ -211,11 +222,12 @@ export default [
   },
   // Collective Bargaining
   {
+    id: "m-9",
     missionName: "Collective Bargaining",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Inert Nanoprobes", "Service Awards"],
-    criticalReward: ["Active Nanoprobes"],
+    primaryReward: ["inert_nanoprobe", "service_award"],
+    criticalReward: ["active_nanoprobe"],
     traits: [
       {
         traitName: "Fluffy",
@@ -233,11 +245,12 @@ export default [
   },
   // Crystal Contractor
   {
+    id: "m-10",
     missionName: "Crystal Contractor",
     rarity: "Uncommon",
     keyStat: "Attack",
-    primaryReward: ["Raw Crystal", "Service Awards"],
-    criticalReward: ["Common Crystal"],
+    primaryReward: ["crystal_raw", "service_award"],
+    criticalReward: ["resource_icon_61"],
     traits: [
       {
         traitName: "Miner",
@@ -255,11 +268,12 @@ export default [
   },
   // Cultural Exchange
   {
+    id: "m-11",
     missionName: "Cultural Exchange",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Federation Credits", "Service Awards"],
-    criticalReward: ["Federation Ship Blueprints"],
+    primaryReward: ["federation_badge", "service_award"],
+    criticalReward: ["federation_blueprint"],
     traits: [
       {
         traitName: "Leader",
@@ -281,11 +295,12 @@ export default [
   },
   // Deep Space Reconnaissance
   {
+    id: "m-12",
     missionName: "Deep Space Reconnaissance",
     rarity: "Common",
     keyStat: "Health",
-    primaryReward: ["Rare Star Charts", "Service Awards"],
-    criticalReward: ["Rare Star Charts"],
+    primaryReward: ["star_chart_rare", "service_award"],
+    criticalReward: ["star_chart_rare"],
     traits: [
       {
         traitName: "Explorer",
@@ -295,11 +310,12 @@ export default [
   },
   // Double Agent Interrogatoin
   {
+    id: "m-13",
     missionName: "Double Agent Interrogatoin",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Premium Recruit Tokens", "Service Awards"],
-    criticalReward: ["Nyota Uhura Shards"],
+    primaryReward: ["premium_recruit_tokens", "service_award"],
+    criticalReward: ["nyota_uhura"],
     traits: [
       {
         traitName: "Empathic",
@@ -321,11 +337,12 @@ export default [
   },
   // Diplomatic Relations
   {
+    id: "m-14",
     missionName: "Diplomatic Relations",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Officer XP"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["officer_xp"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Diplomat",
@@ -335,11 +352,12 @@ export default [
   },
   // Emergency Evacuation
   {
+    id: "m-15",
     missionName: "Emergency Evacuation",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Federation Reputation", "Service Awards"],
-    criticalReward: ["Federation Credits"],
+    primaryReward: ["federation_reputation", "service_award"],
+    criticalReward: ["federation_badge"],
     traits: [
       {
         traitName: "Cautious",
@@ -361,11 +379,12 @@ export default [
   },
   // Experimental Procedures
   {
+    id: "m-16",
     missionName: "Experimental Procedures",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Federation Credits", "Service Awards"],
-    criticalReward: ["Federation Ship Blueprints"],
+    primaryReward: ["federation_badge", "service_award"],
+    criticalReward: ["federation_blueprint"],
     traits: [
       {
         traitName: "Leader",
@@ -387,11 +406,12 @@ export default [
   },
   // Explore Galactic Barrier
   {
+    id: "m-17",
     missionName: "Cultural Exchange",
     rarity: "Epic",
     keyStat: "Defense",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["TOS Spock Shards"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["tos_spock"],
     traits: [
       {
         traitName: "Psionic",
@@ -413,11 +433,12 @@ export default [
   },
   // Forensic Investigation
   {
+    id: "m-18",
     missionName: "Forensic Investigation",
     rarity: "Epic",
     keyStat: "Attack",
-    primaryReward: ["Service Awards"],
-    criticalReward: ["Merits of Honor"],
+    primaryReward: ["service_award"],
+    criticalReward: ["merit_of_honor"],
     traits: [
       {
         traitName: "Specialist",
@@ -435,11 +456,12 @@ export default [
   },
   // Form Trade Agreement
   {
+    id: "m-19",
     missionName: "Form Trade Agreement",
     rarity: "Uncommon",
     keyStat: "Health",
-    primaryReward: ["Away Team Credits"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Charming",
@@ -461,11 +483,12 @@ export default [
   },
   // Gas Contractor
   {
+    id: "m-20",
     missionName: "Gas Contractor",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Raw Gas", "Service Awards"],
-    criticalReward: ["Common Gas"],
+    primaryReward: ["gas_raw", "service_award"],
+    criticalReward: ["resource_icon_56"],
     traits: [
       {
         traitName: "Specialist",
@@ -483,11 +506,12 @@ export default [
   },
   // Geological Evaluation (Crystal)
   {
+    id: "m-21",
     missionName: "Geological Evaluation (Crystal)",
     rarity: "Epic",
     keyStat: "Health",
-    primaryReward: ["Common Crystal", "Service Awards"],
-    criticalReward: ["Uncommon Crystal"],
+    primaryReward: ["resource_icon_61", "service_award"],
+    criticalReward: ["crystal_uncommon"],
     traits: [
       {
         traitName: "Miner",
@@ -509,11 +533,12 @@ export default [
   },
   // Geological Evaluation (Gas)
   {
+    id: "m-22",
     missionName: "Geological Evaluation (Gas)",
     rarity: "Epic",
     keyStat: "Health",
-    primaryReward: ["Common Gas", "Service Awards"],
-    criticalReward: ["Uncommon Gas"],
+    primaryReward: ["resource_icon_56", "service_award"],
+    criticalReward: ["gas_uncommon"],
     traits: [
       {
         traitName: "Miner",
@@ -535,11 +560,12 @@ export default [
   },
   // Geological Evaluation (Ore)
   {
+    id: "m-23",
     missionName: "Ore Contractor",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Raw Ore", "Service Awards"],
-    criticalReward: ["Common Ore"],
+    primaryReward: ["ore_raw", "service_award"],
+    criticalReward: ["resource_icon_51"],
     traits: [
       {
         traitName: "Archaeologist",
@@ -561,11 +587,12 @@ export default [
   },
   // Geothermal Conditioning (Crystal)
   {
+    id: "m-24",
     missionName: "Geothermal Conditioning (Crystal)",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Common Crystal", "Service Awards"],
-    criticalReward: ["Uncommon Crystal"],
+    primaryReward: ["resource_icon_61", "service_award"],
+    criticalReward: ["crystal_uncommon"],
     traits: [
       {
         traitName: "Genius",
@@ -583,11 +610,12 @@ export default [
   },
   // Geothermal Conditioning (Gas)
   {
+    id: "m-25",
     missionName: "Geothermal Conditioning (Gas)",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Common Gas", "Service Awards"],
-    criticalReward: ["Uncommon Gas"],
+    primaryReward: ["resource_icon_56", "service_award"],
+    criticalReward: ["gas_uncommon"],
     traits: [
       {
         traitName: "Miner",
@@ -605,11 +633,12 @@ export default [
   },
   // Geothermal Conditioning (Ore)
   {
+    id: "m-26",
     missionName: "Geothermal Conditioning (Ore)",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Common Ore", "Service Awards"],
-    criticalReward: ["Uncommon Ore"],
+    primaryReward: ["resource_icon_51", "service_award"],
+    criticalReward: ["ore_uncommon"], //ore_uncommon
     traits: [
       {
         traitName: "Cybernetic",
@@ -627,11 +656,12 @@ export default [
   },
   // Host Ambassador
   {
+    id: "m-27",
     missionName: "Host Ambassador",
     rarity: "Common",
     keyStat: "Attack",
-    primaryReward: ["Officer XP", "Service Awards"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["officer_xp", "service_award"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Charismatic",
@@ -645,11 +675,12 @@ export default [
   },
   // Imperial Strategy
   {
+    id: "m-28",
     missionName: "Imperial Strategy",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Romulan Credits"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["romulan_badge"],
     traits: [
       {
         traitName: "Leader",
@@ -671,11 +702,12 @@ export default [
   },
   // Investigate Borg Signal
   {
+    id: "m-29",
     missionName: "Gas Contractor",
     rarity: "Epic",
     keyStat: "Health",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Epic Tribble Shards"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["ten_of_ten"],
     traits: [
       {
         traitName: "Specialist",
@@ -697,11 +729,12 @@ export default [
   },
   // Lead Expedition
   {
+    id: "m-30",
     missionName: "Lead Expedition",
     rarity: "Uncommon",
     keyStat: "Defense",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Away Teams Credits"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["away_team_credit"],
     traits: [
       {
         traitName: "Impulsive",
@@ -723,11 +756,12 @@ export default [
   },
   // Low Orbit Flyby
   {
+    id: "m-31",
     missionName: "Low Orbit Flyby",
     rarity: "Common",
     keyStat: "Defense",
-    primaryReward: ["Axionic Biochips", "Service Awards", "Ship XP"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["axionic_biochip", "service_award", "ship_xp"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Pilot",
@@ -737,11 +771,12 @@ export default [
   },
   // Mek'ba Judiciary
   {
+    id: "m-32",
     missionName: "Mek'ba Judiciary",
     rarity: "Uncommon",
     keyStat: "Attack",
-    primaryReward: ["Klingon Reputation", "Service Awards"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["klingon_reputation", "service_award"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Advisor",
@@ -759,11 +794,12 @@ export default [
   },
   // Observing Kolinahr
   {
+    id: "m-33",
     missionName: "Observing Kolinahr",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Federation Reputation", "Service Awards"],
-    criticalReward: ["Federation Credits"],
+    primaryReward: ["federation_reputation", "service_award"],
+    criticalReward: ["federation_badge"],
     traits: [
       {
         traitName: "Calculated",
@@ -781,11 +817,12 @@ export default [
   },
   // Officer Training
   {
+    id: "m-34",
     missionName: "Officer Training",
     rarity: "Uncommon",
     keyStat: "Health",
-    primaryReward: ["Trait XP"],
-    criticalReward: ["Away Teams Credits"],
+    primaryReward: ["trait_xp"],
+    criticalReward: ["away_team_credit"],
     traits: [
       {
         traitName: "Impulsive",
@@ -807,11 +844,12 @@ export default [
   },
   // Ore Contractor
   {
+    id: "m-35",
     missionName: "Ore Contractor",
     rarity: "Uncommon",
     keyStat: "Health",
-    primaryReward: ["Raw Ore", "Service Awards"],
-    criticalReward: ["Common Ore"],
+    primaryReward: ["ore_raw", "service_award"],
+    criticalReward: ["resource_icon_51"],
     traits: [
       {
         traitName: "Miner",
@@ -829,11 +867,12 @@ export default [
   },
   // Peace Treaty
   {
+    id: "m-36",
     missionName: "Gas Contractor",
     rarity: "Epic",
     keyStat: "Defense",
-    primaryReward: ["Ultra Tokens", "Service Awards"],
-    criticalReward: ["Epic TNG Data Shards"],
+    primaryReward: ["ultra_tokens", "service_award"],
+    criticalReward: ["data"],
     traits: [
       {
         traitName: "Leader",
@@ -855,11 +894,12 @@ export default [
   },
   // Peacekeeping Initiative
   {
+    id: "m-37",
     missionName: "Peacekeeping Initiative",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Premium Recruit Tokens", "Service Awards"],
-    criticalReward: ["Azetbur Shards"],
+    primaryReward: ["premium_recruit_tokens", "service_award"],
+    criticalReward: ["azetbur"],
     traits: [
       {
         traitName: "Charming",
@@ -881,11 +921,12 @@ export default [
   },
   // Planetary Survey
   {
+    id: "m-38",
     missionName: "Planetary Survey",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Premium Recruit Tokens", "Service Awards"],
-    criticalReward: ["Moreau Shards"],
+    primaryReward: ["premium_recruit_tokens", "service_award"],
+    criticalReward: ["marlena_moreau"],
     traits: [
       {
         traitName: "Miner",
@@ -903,11 +944,12 @@ export default [
   },
   // Political Espionage
   {
+    id: "m-39",
     missionName: "Political Espionage",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Romulan Credits", "Service Awards"],
-    criticalReward: ["Romulan Ship Blueprints"],
+    primaryReward: ["romulan_badge", "service_award"],
+    criticalReward: ["romulan_blueprint"],
     traits: [
       {
         traitName: "Manipulative",
@@ -929,11 +971,12 @@ export default [
   },
   // R'uustai Ceremony
   {
+    id: "m-40",
     missionName: "R'uustai Ceremony",
     rarity: "Rare",
     keyStat: "Health",
-    primaryReward: ["Klingon Credits", "Service Awards"],
-    criticalReward: ["Klingon Ship Blueprints"],
+    primaryReward: ["klingon_badge", "service_award"],
+    criticalReward: ["klingon_blueprint"],
     traits: [
       {
         traitName: "Dedicated",
@@ -951,11 +994,12 @@ export default [
   },
   // Rescue Attempt
   {
+    id: "m-41",
     missionName: "Rescue Attempt",
     rarity: "Uncommon",
     keyStat: "Attack",
-    primaryReward: ["Repair Speedups", "Service Awards"],
-    criticalReward: ["Repair Speedups"],
+    primaryReward: ["repair_speedup", "service_award"],
+    criticalReward: ["repair_speedup"],
     traits: [
       {
         traitName: "Doctor",
@@ -973,11 +1017,12 @@ export default [
   },
   // Research and Development
   {
+    id: "m-42",
     missionName: "Research and Development",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Federation Credits"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["federation_badge"],
     traits: [
       {
         traitName: "Focused",
@@ -999,11 +1044,12 @@ export default [
   },
   // Rite of MajQa
   {
+    id: "m-43",
     missionName: "Rite of MajQa",
     rarity: "Rare",
     keyStat: "Defense",
-    primaryReward: ["Klingon Reputation", "Service Awards"],
-    criticalReward: ["Klingon Credits"],
+    primaryReward: ["klingon_reputation", "service_award"],
+    criticalReward: ["klingon_badge"],
     traits: [
       {
         traitName: "Chancellor",
@@ -1017,11 +1063,12 @@ export default [
   },
   // Salvage Operation (Explorer)
   {
+    id: "m-44",
     missionName: "Salvage Operation (Explorer)",
     rarity: "Common",
     keyStat: "Attack",
-    primaryReward: ["Broken Explorer Parts", "Service Awards"],
-    criticalReward: ["Uncommon G4 Explorer Parts"],
+    primaryReward: ["broken_explorer_parts", "service_award"],
+    criticalReward: ["explorer_parts_uncommon"],
     traits: [
       {
         traitName: "Android",
@@ -1043,11 +1090,12 @@ export default [
   },
   // Salvage Operation (Interceptor)
   {
+    id: "m-45",
     missionName: "Salvage Operation (Interceptor)",
     rarity: "Common",
     keyStat: "Attack",
-    primaryReward: ["Broken Interceptor Parts", "Service Awards"],
-    criticalReward: ["Uncommon G4 Interceptor Parts"],
+    primaryReward: ["broken_interceptor_parts", "service_award"],
+    criticalReward: ["interceptor_parts_uncommon"],
     traits: [
       {
         traitName: "Cybernetic",
@@ -1069,11 +1117,12 @@ export default [
   },
   // Scientific Breakthrough
   {
+    id: "m-46",
     missionName: "Scientific Breakthrough",
     rarity: "Common",
     keyStat: "Health",
-    primaryReward: ["Service Awards"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["service_award"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Scientist",
@@ -1083,11 +1132,12 @@ export default [
   },
   // Senate Hearing
   {
+    id: "m-47",
     missionName: "Senate Hearing",
     rarity: "Uncommon",
     keyStat: "Health",
-    primaryReward: ["Romulan Reputation", "Service Awards"],
-    criticalReward: ["Romulan Credits"],
+    primaryReward: ["romulan_reputation", "service_award"],
+    criticalReward: ["romulan_badge"],
     traits: [
       {
         traitName: "Analytical",
@@ -1105,11 +1155,12 @@ export default [
   },
   // Smuggle Cybernetics
   {
+    id: "m-48",
     missionName: "Smuggle Cybernetics",
     rarity: "Epic",
     keyStat: "Attack",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Epic Data Shards"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["data"],
     traits: [
       {
         traitName: "Adaptable",
@@ -1131,11 +1182,12 @@ export default [
   },
   // Stellar Cartography
   {
+    id: "m-49",
     missionName: "Stellar Cartography",
     rarity: "Common",
     keyStat: "Health",
-    primaryReward: ["Rare Star Charts", "Service Awards"],
-    criticalReward: ["Rare Star Charts"],
+    primaryReward: ["star_chart_rare", "service_award"],
+    criticalReward: ["star_chart_rare"],
     traits: [
       {
         traitName: "Explorer",
@@ -1154,11 +1206,12 @@ export default [
 
   // Tactical Simulator
   {
+    id: "m-50",
     missionName: "Tactical Simulator",
     rarity: "Common",
     keyStat: "Defense",
-    primaryReward: ["Axionic Biochips", "Ship XP", "Service Awards"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["axionic_biochip", "ship_xp", "service_award"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Analytical",
@@ -1172,11 +1225,12 @@ export default [
   },
   // Tal Shiar Inquisition
   {
+    id: "m-51",
     missionName: "Tal Shiar Inquisition",
     rarity: "Epic",
     keyStat: "Attack",
-    primaryReward: ["Romulan Reputation", "Service Award"],
-    criticalReward: ["Romulan Credits"],
+    primaryReward: ["romulan_reputation", "service_award"],
+    criticalReward: ["romulan_badge"],
     traits: [
       {
         traitName: "Relentless",
@@ -1198,11 +1252,12 @@ export default [
   },
   // Terraforming Expedition
   {
+    id: "m-52",
     missionName: "Terraforming Expedition",
     rarity: "Common",
     keyStat: "Defense",
-    primaryReward: ["Federation Reputation"],
-    criticalReward: ["Federation Credits"],
+    primaryReward: ["federation_reputation"],
+    criticalReward: ["federation_badge"],
     traits: [
       {
         traitName: "Miner",
@@ -1220,11 +1275,12 @@ export default [
   },
   // Time Heist
   {
+    id: "m-53",
     missionName: "Time Heist",
     rarity: "Epic",
     keyStat: "Attack",
-    primaryReward: ["Away Teams Credits"],
-    criticalReward: ["Epic Burnham Shards"],
+    primaryReward: ["away_team_credit"],
+    criticalReward: ["michael_burnham"],
     traits: [
       {
         traitName: "Mastermind",
@@ -1246,11 +1302,12 @@ export default [
   },
   // Undercover Mission
   {
+    id: "m-54",
     missionName: "Undercover Mission",
     rarity: "Rare",
     keyStat: "Attack",
-    primaryReward: ["Romulan Reputation", "Service Awards"],
-    criticalReward: ["Romulan Credits"],
+    primaryReward: ["romulan_reputation", "service_award"],
+    criticalReward: ["romulan_badge"],
     traits: [
       {
         traitName: "Charismatic",
@@ -1272,11 +1329,12 @@ export default [
   },
   // Xenoarcheology Trip
   {
+    id: "m-55",
     missionName: "Terraforming Expedition",
     rarity: "Common",
     keyStat: "Attack",
-    primaryReward: ["Officer XP", "Service Awards"],
-    criticalReward: ["Latinum"],
+    primaryReward: ["officer_xp", "service_award"],
+    criticalReward: ["latinium"],
     traits: [
       {
         traitName: "Archaeologist",

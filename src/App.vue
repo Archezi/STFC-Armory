@@ -12,9 +12,8 @@ import Navbar from "./components/Navbar.vue";
 export default {
   name: "App",
   components: { Navbar },
-
-  data() {
-    return {};
+  created() {
+    this.$store.dispatch("initMissions");
   },
 };
 </script>
@@ -22,6 +21,9 @@ export default {
 @import "./scss/one/variable.scss";
 @import "./scss/one/mixins.scss";
 @import "./scss/one/base.scss";
+.container {
+  max-width: 100rem !important;
+}
 .main-content {
   background: #161c25;
 }

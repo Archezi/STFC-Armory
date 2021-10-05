@@ -18,13 +18,9 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <mission-list></mission-list>
   </div>
 </template>
 
 <script>
-import MissionList from "./missions/MissionList.vue";
-export default {
-  components: { MissionList },
-};
+export default {};
 </script>

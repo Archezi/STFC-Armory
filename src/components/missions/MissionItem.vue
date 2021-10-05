@@ -1,108 +1,77 @@
 <template>
-  <li>
-    <v-card outlined min-height="100px" class="pa-5 mission-item">
-      <div class="mission-data mb-5">
-        <div class="mission-name d-flex flex-column align-start justify-center">
-          <p class="ma-0">{{ title }}</p>
-          <h2>Collective Bargaining</h2>
-        </div>
-        <div
-          class="mission-rarity d-flex flex-column align-start justify-center"
-        >
-          <p class="ma-0">Rarity</p>
-          <h4 class="rare">Rare</h4>
+  <v-card outlined min-height="100px" class="pa-5 mission-item">
+    <div class="mission-data mb-5">
+      <div class="mission-name d-flex flex-column align-start justify-center">
+        <p class="ma-0">Mission name</p>
+        <h2>{{ title }}</h2>
+      </div>
+      <div class="mission-rarity d-flex flex-column align-start justify-center">
+        <p class="ma-0">Rarity</p>
+        <h4 :class="rarity.toLowerCase()">{{ rarity }}</h4>
+      </div>
+      <div
+        class="mission-main-stat d-flex flex-column align-start justify-center"
+      >
+        <p class="ma-0">Main Statistic</p>
+        <h4>{{ keyStat }}</h4>
+      </div>
+      <div class="mission-rewards">
+        <div class="mission-reward d-flex flex-row align-center justify-center">
+          <img
+            v-for="image in primaryReward"
+            :key="image.index"
+            class=""
+            :src="require(`@/assets/icons/${image}.png`)"
+          />
+          <!-- <img class="" :src="require(`@/assets/icons/${missionRewards}`)" /> -->
         </div>
         <div
           class="
-            mission-main-stat
+            mission-reward-critical
             d-flex
-            flex-column
-            align-start
+            flex-row
+            align-center
             justify-center
           "
         >
-          <p class="ma-0">Main Statistic</p>
-          <h4>Attack</h4>
-        </div>
-        <div class="mission-rewards">
-          <div
-            class="mission-reward d-flex flex-row align-center justify-center"
-          >
-            <img class="" :src="require(`@/assets/icons/${missionRewards}`)" />
-            <img class="" :src="require(`@/assets/icons/${missionRewards}`)" />
-            <!-- <img class="" :src="require(`@/assets/icons/${missionRewards}`)" /> -->
-          </div>
-          <div
-            class="
-              mission-reward-critical
-              d-flex
-              flex-row
-              align-center
-              justify-center
-            "
-          >
-            <img :src="require(`@/assets/icons/${missionRewards}`)" />
-          </div>
+          <img :src="require(`@/assets/icons/${criticalReward}.png`)" />
         </div>
       </div>
-      <v-card class="trait-bar transparent" rounded="5">
-        <div
-          class="trait-item d-flex align-center justify-center"
-          v-for="trait in missions.traits"
-          :key="trait"
-        >
-          <div class="d-flex align-center justify-center">
-            <span class="mr-2 trait-name"> {{ trait.traitName }} </span>
-          </div>
-          <div class="d-flex align-center justify-center">
-            <span>{{ trait.traitLvl }}</span>
-          </div>
+    </div>
+    <v-card class="trait-bar transparent" rounded="5">
+      <div
+        class="trait-item d-flex align-center justify-center"
+        v-for="trait in traits"
+        :key="trait.index"
+      >
+        <div class="d-flex align-center justify-center">
+          <span class="mr-2 trait-name"> {{ trait.traitName }} </span>
         </div>
-      </v-card>
+        <div class="d-flex align-center justify-center">
+          <span>{{ trait.traitLvl }}</span>
+        </div>
+      </div>
     </v-card>
-  </li>
+  </v-card>
 </template>
 
 <script>
 export default {
-  props: ["title", "rarity", "primaryReward", "criticalReward", "traits"],
+  props: [
+    "title",
+    "rarity",
+    "keyStat",
+    "primaryReward",
+    "criticalReward",
+    "traits",
+  ],
   data() {
     return {
       missionRewards: "latinium.png",
       missionHeader: null,
-      missions: {
-        missionName: "Accelerated Bioforming",
-        rarity: "Rare",
-        keyStat: "Health",
-        primaryReward: ["Speedups", "Service Awards"],
-        criticalReward: "Latinum",
-        traits: [
-          {
-            traitName: "Physicist",
-            traitLvl: 2,
-          },
-          {
-            traitName: "Engineer",
-            traitLvl: 1,
-          },
-          {
-            traitName: "Inventor",
-            traitLvl: 1,
-          },
-          {
-            traitName: "Scientist",
-            traitLvl: 1,
-          },
-        ],
-      },
     };
   },
-  computed: {},
-  methods: {
-    MissionTraits() {
-      this.missions.primaryReward;
-    },
-  },
+  methods: {},
 };
 </script>
 
@@ -112,7 +81,7 @@ export default {
 
 .mission-data {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: 2fr 1fr 1fr 2fr;
   grid-template-areas: "missionName  rarity mainStat  rewards";
   @include respond(phone) {
     grid-template-columns: repeat(4, auto);
@@ -174,7 +143,7 @@ export default {
 .mission-rewards {
   grid-area: rewards;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 2fr 1fr;
   grid-template-areas: "missionReward missionRrewardCritical";
   @include respond(phone) {
   }
@@ -243,7 +212,7 @@ export default {
 
 .mission-item {
   min-height: 10rem;
-  background: #1f262e;
+  background: #1f262e !important;
   border: 1px solid #3263b8;
   h2,
   h4 {
@@ -254,8 +223,19 @@ export default {
   }
 }
 
+.common {
+  color: $color-common !important;
+}
+.uncommon {
+  color: $color-uncommon !important;
+}
 .rare {
-  color: $color-secondary !important;
-  color: #3263b8 !important;
+  color: $color-rare !important;
+}
+.epic {
+  color: $color-epic !important;
+}
+li {
+  list-style-type: none !important;
 }
 </style>
