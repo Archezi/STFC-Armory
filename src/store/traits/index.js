@@ -1,22 +1,22 @@
-import missions from "../../data/missions";
+import traits from "../../data/traits.js";
 
 const state = {
-  missions: null,
+  traits: [],
 };
 
 const mutations = {
-  SET_MISSIONS(state, missions) {
-    state.missions = missions;
+  SET_MISSIONS(state, traits) {
+    state.missions = traits;
   },
 };
 const actions = {
   initMissions: ({ commit }) => {
-    commit("SET_MISSIONS", missions);
+    commit("SET_MISSIONS", traits);
   },
 };
 const getters = {
-  missions: (state) => {
-    return state.missions;
+  traits: (state) => {
+    return state.traits;
   },
 };
 

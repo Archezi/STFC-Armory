@@ -67,7 +67,6 @@ export default {
   ],
   data() {
     return {
-      missionRewards: "latinium.png",
       missionHeader: null,
     };
   },
